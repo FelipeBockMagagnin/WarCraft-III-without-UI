@@ -2,29 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad09542d-7572-445f-8152-8b93cb7254b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Jogo/AndarilhoEspiritual.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Jogo/Arqueiro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Jogo/AtaqADistancia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Jogo/Camponeses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Jogo/Casa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Jogo/Cavaleiro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Jogo/CentroCidade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Jogo/Construção.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Jogo/ConstruçãoQCria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Jogo/ContQueAtaca.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Jogo/Grifo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Jogo/Guerreiro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Jogo/Humano.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Jogo/Objeto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Jogo/Orc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Jogo/Posição.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Jogo/Quartel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Jogo/Raça.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Jogo/Sacerdote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Jogo/Torre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Jogo/Unidade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Jogo/UnidadeQAtaca.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Jogo/AndarilhoEspiritual.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Jogo/AndarilhoEspiritual.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Jogo/Arqueiro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Jogo/Arqueiro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Jogo/Camponeses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Jogo/Camponeses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Jogo/Cavaleiro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Jogo/Cavaleiro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Jogo/CentroCidade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Jogo/CentroCidade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Jogo/ConstruçãoQCria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Jogo/ConstruçaoQCria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Jogo/Grifo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Jogo/Grifo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Jogo/Guerreiro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Jogo/Guerreiro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Jogo/Objeto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Jogo/Objeto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Jogo/Quartel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Jogo/Quartel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Jogo/Sacerdote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Jogo/Sacerdote.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Jogo/Unidade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Jogo/Unidade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Jogo/UnidadeQAtaca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Jogo/UnidadeQAtaca.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,91 +29,112 @@
     <session id="-916314879">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.16" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.48" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="24" />
+          <entry key="java" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="24" />
+          <entry key="JAVA" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1008" />
+          <entry key="dummy" value="1" />
+          <entry key="java" value="1550" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1008" />
+          <entry key="JAVA" value="1550" />
+          <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Jogo/Raça.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="54" lean-forward="true" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Jogo/Humano.java">
+        <entry file="file://$PROJECT_DIR$/src/Jogo/Unidade.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+              <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Jogo/Construção.java">
+        <entry file="file://$PROJECT_DIR$/src/Jogo/UnidadeQAtaca.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+            <state relative-caret-position="153">
+              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Jogo/Orc.java">
+        <entry file="file://$PROJECT_DIR$/src/Jogo/Sacerdote.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+            <state relative-caret-position="306">
+              <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Jogo/AndarilhoEspiritual.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Jogo/ConstruçãoQCria.java">
+        <entry file="file://$PROJECT_DIR$/src/Jogo/Grifo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+            <state relative-caret-position="187">
+              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Jogo/Casa.java">
+        <entry file="file://$PROJECT_DIR$/src/Jogo/Cavaleiro.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+            <state relative-caret-position="153">
+              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Jogo/Quartel.java">
+        <entry file="file://$PROJECT_DIR$/src/Jogo/Guerreiro.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Jogo/Arqueiro.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Jogo/AtaqADistancia.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
               <caret line="3" selection-start-line="3" selection-end-line="3" />
@@ -130,28 +143,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Jogo/CentroCidade.java">
+        <entry file="file://$PROJECT_DIR$/src/Jogo/Camponeses.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Jogo/Torre.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Jogo/ContQueAtaca.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+            <state relative-caret-position="386">
+              <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -173,21 +168,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/Jogo/Posição.java" />
-        <option value="$PROJECT_DIR$/src/Jogo/Objeto.java" />
         <option value="$PROJECT_DIR$/src/Unidade/Cavaleiro.java" />
-        <option value="$PROJECT_DIR$/src/Jogo/Camponeses.java" />
-        <option value="$PROJECT_DIR$/src/Jogo/Sacerdote.java" />
-        <option value="$PROJECT_DIR$/src/Jogo/Guerreiro.java" />
-        <option value="$PROJECT_DIR$/src/Jogo/Cavaleiro.java" />
-        <option value="$PROJECT_DIR$/src/Jogo/UnidadeQAtaca.java" />
-        <option value="$PROJECT_DIR$/src/Jogo/Unidade.java" />
-        <option value="$PROJECT_DIR$/src/Jogo/AtaqADistancia.java" />
-        <option value="$PROJECT_DIR$/src/Jogo/Grifo.java" />
-        <option value="$PROJECT_DIR$/src/Jogo/Arqueiro.java" />
-        <option value="$PROJECT_DIR$/src/Jogo/AndarilhoEspiritual.java" />
         <option value="$PROJECT_DIR$/src/Raça/Raça.java" />
         <option value="$PROJECT_DIR$/src/Jogo/Construção.java" />
-        <option value="$PROJECT_DIR$/src/Jogo/ConstruçãoQCria.java" />
         <option value="$PROJECT_DIR$/src/Jogo/Casa.java" />
         <option value="$PROJECT_DIR$/src/Jogo/Quartel.java" />
         <option value="$PROJECT_DIR$/src/Jogo/ContQueAtaca.java" />
@@ -196,19 +179,48 @@
         <option value="$PROJECT_DIR$/src/Jogo/Humano.java" />
         <option value="$PROJECT_DIR$/src/Jogo/Raça.java" />
         <option value="$PROJECT_DIR$/src/Jogo/Orc.java" />
+        <option value="$PROJECT_DIR$/src/Jogo/ConstruçãoQCria.java" />
+        <option value="$PROJECT_DIR$/src/Jogo/ConstruçaoQCria.java" />
+        <option value="$PROJECT_DIR$/src/Jogo/Objeto.java" />
+        <option value="$PROJECT_DIR$/src/Jogo/Unidade.java" />
+        <option value="$PROJECT_DIR$/src/Jogo/UnidadeQAtaca.java" />
+        <option value="$PROJECT_DIR$/src/Jogo/Camponeses.java" />
+        <option value="$PROJECT_DIR$/src/Jogo/Cavaleiro.java" />
+        <option value="$PROJECT_DIR$/src/Jogo/Guerreiro.java" />
+        <option value="$PROJECT_DIR$/src/Jogo/AtaqADistancia.java" />
+        <option value="$PROJECT_DIR$/src/Jogo/Arqueiro.java" />
+        <option value="$PROJECT_DIR$/src/Jogo/Sacerdote.java" />
+        <option value="$PROJECT_DIR$/src/Jogo/AndarilhoEspiritual.java" />
+        <option value="$PROJECT_DIR$/src/Jogo/Grifo.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="676" />
     <option name="width" value="697" />
     <option name="height" value="735" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Spelling</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -231,12 +243,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541377764300" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541527891303" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -264,18 +275,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="676" y="0" width="697" height="735" extended-state="0" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1580938" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3343799" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -283,14 +291,17 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -304,101 +315,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Unidade/Cavaleiro.java">
+    <entry file="file://$PROJECT_DIR$/src/Unidade/Cavaleiro.java" />
+    <entry file="file://$PROJECT_DIR$/src/Jogo/Guerreio.java" />
+    <entry file="file://$PROJECT_DIR$/src/Jogo/Raça.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="46" lean-forward="true" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Jogo/Guerreio.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Jogo/Camponeses.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Jogo/Sacerdote.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Jogo/Cavaleiro.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Jogo/Unidade.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Jogo/Objeto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="6" selection-start-line="2" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Jogo/UnidadeQAtaca.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Jogo/Guerreiro.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Jogo/AtaqADistancia.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Jogo/Grifo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Jogo/Arqueiro.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Jogo/AndarilhoEspiritual.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Jogo/Construção.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        <state relative-caret-position="153">
+          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -409,10 +331,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Jogo/Raça.java">
+    <entry file="file://$PROJECT_DIR$/src/Jogo/Construção.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="54" lean-forward="true" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
+        <state relative-caret-position="68">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -420,6 +342,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Jogo/ConstruçaoQCria.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
@@ -447,7 +376,7 @@
     <entry file="file://$PROJECT_DIR$/src/Jogo/Torre.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -458,10 +387,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Jogo/ConstruçãoQCria.java">
+    <entry file="file://$PROJECT_DIR$/src/Jogo/Objeto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        <state relative-caret-position="34">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Jogo/Unidade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Jogo/UnidadeQAtaca.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Jogo/Camponeses.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Jogo/Cavaleiro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Jogo/Guerreiro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Jogo/AtaqADistancia.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Jogo/Arqueiro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Jogo/Sacerdote.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Jogo/AndarilhoEspiritual.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Jogo/Grifo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
         </state>
       </provider>
     </entry>

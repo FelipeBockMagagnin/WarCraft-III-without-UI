@@ -1,5 +1,5 @@
 package Jogo;
 
-public class Quartel extends ConstruçãoQCria {
+public class Quartel extends ConstruçaoQCria {
 
 }

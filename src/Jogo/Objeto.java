@@ -1,6 +1,6 @@
 package Jogo;
 
-public class Objeto {
+abstract class Objeto {
     Posição pos = new Posição();
     String custo;
     String imagem;
