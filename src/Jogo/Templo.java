@@ -1,11 +1,10 @@
 package Jogo;
 
-public class Casa extends  Construção{
+public class Templo extends ConstruçaoQCria {
 
-    Casa(double x, double y){
+    Templo(double x, double y){
         this.pos.x = x;
         this.pos.y = y;
         this.pontosVitais = 600;
     }
-
 }

@@ -1,7 +1,7 @@
 package Jogo;
 
-public class Raça {
-    int madeiro, comida, manda, ouro;
+abstract public class Raça {
+    int madeira, comida, mana, ouro;
     Unidade[] unidades;
     Construção[] construções;
     int populaçãoTotal;

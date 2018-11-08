@@ -11,11 +11,13 @@ public class Sacerdote extends Unidade {
 
     }
 
-    Sacerdote(){
+    Sacerdote(double x, double y){
         this.pontosVitais = 125;
         this.alcance = 10;
         this.armadura = 0;
         this.velocidade = 1.0;
         this.imagem = "sacerdote";
+        this.pos.x = x;
+        this.pos.y = y;
     }
 }
