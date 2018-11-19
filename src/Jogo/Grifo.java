@@ -1,6 +1,6 @@
 package Jogo;
 
-public class Grifo extends AtaqADistancia {
+public class Grifo extends UnidadeQAtaca implements AtaqADistancia {
 
 
     Grifo(double x, double y){
@@ -12,5 +12,7 @@ public class Grifo extends AtaqADistancia {
         this.imagem = "grifo";
         this.pos.x = x;
         this.pos.y = y;
+
+        System.out.println("Unidade " + imagem + "criada, posição (x:" + x + ", y:" + y + ")");
     }
 }

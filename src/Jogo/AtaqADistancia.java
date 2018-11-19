@@ -1,5 +1,5 @@
 package Jogo;
 
-public class AtaqADistancia extends UnidadeQAtaca {
-
+public interface AtaqADistancia {
+    //apenas como tag
 }

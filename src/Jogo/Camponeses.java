@@ -1,21 +1,21 @@
 package Jogo;
 
-public class Camponeses extends UnidadeQAtaca {
+public class Camponeses extends UnidadeQAtaca{
 
     void constroi(Posição pos, String tipoContrução){
 
     }
 
-    void colhe(){
-
+    void colhe(Raça raça){
+        raça.comida = raça.comida + 1;
     }
 
-    void corta(){
-
+    void corta(Raça raça){
+        raça.madeira = raça.madeira + 1;
     }
 
-    void minerar(){
-
+    void minerar(Raça raça){
+        raça.ouro = raça.ouro + 1;
     }
 
     Camponeses(double x, double y){
@@ -27,5 +27,7 @@ public class Camponeses extends UnidadeQAtaca {
         this.imagem = "Campones";
         this.pos.x = x;
         this.pos.y = y;
+
+        System.out.println("Unidade " + imagem + "criada, posição (x:" + x + ", y:" + y + ")");
     }
 }

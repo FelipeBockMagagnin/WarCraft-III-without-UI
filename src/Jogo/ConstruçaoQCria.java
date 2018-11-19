@@ -1,8 +1,5 @@
 package Jogo;
 
-public class ConstruçaoQCria extends Construção{
-
-    void criar(){
-
-    }
+public interface ConstruçaoQCria{
+    void criar(String unidade, Raça raça);
 }

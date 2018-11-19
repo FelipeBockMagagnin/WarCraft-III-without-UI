@@ -1,6 +1,6 @@
 package Jogo;
 
-public class AndarilhoEspiritual extends AtaqADistancia {
+public class AndarilhoEspiritual extends UnidadeQAtaca implements AtaqADistancia {
 
     void revive(Objeto obj){
 
@@ -15,5 +15,7 @@ public class AndarilhoEspiritual extends AtaqADistancia {
         this.imagem = "andarilho";
         this.pos.x = x;
         this.pos.y = y;
+
+        System.out.println("Unidade " + imagem + "criada, posição (x:" + x + ", y:" + y + ")");
     }
 }

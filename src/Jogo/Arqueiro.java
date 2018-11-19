@@ -1,6 +1,6 @@
 package Jogo;
 
-public class Arqueiro extends AtaqADistancia {
+public class Arqueiro extends UnidadeQAtaca implements AtaqADistancia {
 
     Arqueiro(double x, double y){
         this.pontosVitais = 45;
@@ -11,5 +11,7 @@ public class Arqueiro extends AtaqADistancia {
         this.imagem = "arqueiro";
         this.pos.x = x;
         this.pos.y = y;
+
+        System.out.println("Unidade " + imagem + "criada, posição (x:" + x + ", y:" + y + ")");
     }
 }

@@ -6,4 +6,6 @@ abstract class Objeto {
     String imagem;
     double pontosVitais;
     int alcance;
+
+
 }
