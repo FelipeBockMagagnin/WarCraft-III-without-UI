@@ -3,7 +3,7 @@ package Jogo;
 public class CentroCidade extends ContQueAtaca implements ConstruçaoQCria  {
 
     public void criar(String unidade, Raça raça){
-        if(raça.populaçãoAtual + 1 <= raça.capacidadePopulação) {
+        if(raça.populaçãoAtual < raça.capacidadePopulação) {
             raça.populaçãoAtual++;
             if (unidade == "campones") {
                 Camponeses camp = new Camponeses(this.pos.x, this.pos.y);
@@ -27,5 +27,6 @@ public class CentroCidade extends ContQueAtaca implements ConstruçaoQCria  {
         this.ataque = 10;
         this.imagem = "Centro da Cidade";
         System.out.println("Centro da cidade criado na posição, (x:" + x + ", y:" + y + ") pontos vitais: " + pontosVitais);
+        raça.construções.add(this);
     }
 }

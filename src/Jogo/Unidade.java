@@ -6,6 +6,7 @@ abstract class Unidade extends Objeto{
     boolean vivo;
     int armadura;
     double velocidade;
+    double maxPontosVitais;
 
     void mover(String direção){
 
@@ -49,4 +50,19 @@ abstract class Unidade extends Objeto{
             return 0;
         }
     }
+
+    void custoUnidade(int madeira, int ouro, int comida, Raça raça){
+        if(raça.madeira >= madeira) {
+            raça.madeira = raça.madeira - madeira;
+        } else if(raça.ouro >= ouro){
+            raça.ouro = raça.ouro - ouro;
+        } else if(raça.comida >= comida ) {
+            raça.comida = raça.comida - comida;
+            System.out.println("Unidade criada com sucesso");
+        } else {
+            System.out.println("Recursos insuficientes");
+        }
+    }
+
+
 }

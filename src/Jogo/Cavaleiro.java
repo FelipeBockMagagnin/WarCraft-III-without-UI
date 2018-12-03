@@ -11,6 +11,8 @@ public class Cavaleiro extends UnidadeQAtaca {
         this.imagem = "cavaleiro";
         this.pos.x = x;
         this.pos.y = y;
+        this.vivo = true;
+        maxPontosVitais = this.pontosVitais;
 
         System.out.println("Unidade " + imagem + "criada, posição (x:" + x + ", y:" + y + ")");
     }

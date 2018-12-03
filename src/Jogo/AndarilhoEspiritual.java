@@ -2,7 +2,16 @@ package Jogo;
 
 public class AndarilhoEspiritual extends UnidadeQAtaca implements AtaqADistancia {
 
-    void revive(Objeto obj){
+    void revive(Objeto obj, Raça raçaInimigo, Raça raçaPersonagem){
+
+        if(((Unidade)obj).vivo == false) {
+            raçaInimigo.unidades.remove(obj);
+            System.out.println("Unidade removida");
+
+            System.out.println("Unidade Adicianada");
+            raçaPersonagem.unidades.add((Unidade) obj);
+            raçaPersonagem.mana -= 5;
+        }
 
     }
 
@@ -15,7 +24,8 @@ public class AndarilhoEspiritual extends UnidadeQAtaca implements AtaqADistancia
         this.imagem = "andarilho";
         this.pos.x = x;
         this.pos.y = y;
-
+        this.vivo = true;
+        maxPontosVitais = this.pontosVitais;
         System.out.println("Unidade " + imagem + "criada, posição (x:" + x + ", y:" + y + ")");
     }
 }
