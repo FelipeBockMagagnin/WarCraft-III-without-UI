@@ -1,13 +1,9 @@
 package Jogo;
-
-
-
 abstract class Unidade extends Objeto{
     public boolean vivo;
     protected int armadura;
     protected double velocidade;
     public double maxPontosVitais;
-
 
     /**
      * Move o personagem para 4 direções diferentes, norte, sul, leste e oeste

@@ -2,6 +2,12 @@ package Jogo;
 
 public class Quartel extends Construção implements ConstruçaoQCria {
 
+    /**
+     * metodo herado de uma interface e devidamente implementado para gerar somente guerreiro, cavaleiro, arqueiro e grifo
+     *
+     * @param unidade
+     * @param raça
+     */
     public void criar(String unidade, Raça raça){
         if(raça.populaçãoAtual  < raça.capacidadePopulação) {
             raça.populaçãoAtual++;
@@ -34,11 +40,11 @@ public class Quartel extends Construção implements ConstruçaoQCria {
     }
 
     Quartel(double x, double y, Raça raça){
-        this.pos.x = x;
-        this.pos.y = y;
-        this.pontosVitais = 350;
-        this.existente = true;
-        this.imagem = "Quartel";
+        pos.x = x;
+        pos.y = y;
+        pontosVitais = 350;
+        existente = true;
+        imagem = "Quartel";
         raça.construções.add(this);
         System.out.println("Quartel criado na posição, (x:" + x + ", y:" + y + ") pontos vitais: " + pontosVitais);
     }

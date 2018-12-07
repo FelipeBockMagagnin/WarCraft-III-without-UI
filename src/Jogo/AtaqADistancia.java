@@ -1,5 +1,5 @@
 package Jogo;
 
 public interface AtaqADistancia {
-    //apenas como tag
+    //apenas como tag;
 }

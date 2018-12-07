@@ -2,6 +2,12 @@ package Jogo;
 
 public class Templo extends Construção implements ConstruçaoQCria {
 
+    /**
+     * metodo herado de uma interface e devidamente implementado para gerar somente sacerdotes e andarilhos espirituais
+     *
+     * @param unidade
+     * @param raça
+     */
     public void criar(String unidade, Raça raça){
         if(raça.populaçãoAtual < raça.capacidadePopulação) {
             raça.populaçãoAtual++;
@@ -31,11 +37,11 @@ public class Templo extends Construção implements ConstruçaoQCria {
     }
 
     Templo(double x, double y, Raça raça){
-        this.pos.x = x;
-        this.pos.y = y;
-        this.pontosVitais = 350;
-        this.existente = true;
-        this.imagem = "Templo";
+        pos.x = x;
+        pos.y = y;
+        pontosVitais = 350;
+        existente = true;
+        imagem = "Templo";
         raça.construções.add(this);
         System.out.println("Templo criado na posição, (x:" + x + ", y:" + y + ") pontos vitais: " + pontosVitais);
     }

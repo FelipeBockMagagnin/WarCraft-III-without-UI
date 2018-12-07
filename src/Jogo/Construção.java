@@ -1,10 +1,16 @@
 package Jogo;
 
 public abstract class Construção extends Objeto{
-        boolean existente;
-        int capacidade;
+        protected boolean existente;
+        protected int capacidade;
 
-        void custoConstruir(int madeira, Raça raça){
+    /**
+     * verifica o custo de construir determinada construção e o desconta
+     *
+     * @param madeira
+     * @param raça
+     */
+    public void custoConstruir(int madeira, Raça raça){
             if(raça.madeira >= madeira){
                 raça.madeira -= madeira;
                 System.out.println("Construção costruida com sucesso: custo = " + madeira + " madeiras");
@@ -13,7 +19,16 @@ public abstract class Construção extends Objeto{
             }
         }
 
-        boolean checkCustoUnidade(int madeira, int ouro, int comida, Raça raça){
+    /**
+     * checa os recursos necessarios para gerar uma unidade, se forem suficientes desconta os valores e return true
+     *
+     * @param madeira
+     * @param ouro
+     * @param comida
+     * @param raça
+     * @return
+     */
+      public boolean checkCustoUnidade(int madeira, int ouro, int comida, Raça raça){
             if((raça.madeira >= madeira) && (raça.ouro >= ouro) && (raça.comida >= comida )){
                 raça.madeira = raça.madeira - madeira;
                 raça.ouro = raça.ouro - ouro;
@@ -24,6 +39,6 @@ public abstract class Construção extends Objeto{
                 System.out.println("Recursos insuficientes");
                 return false;
             }
-        }
+      }
 
 }

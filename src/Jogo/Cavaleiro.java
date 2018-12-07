@@ -3,17 +3,16 @@ package Jogo;
 public class Cavaleiro extends UnidadeQAtaca {
 
     Cavaleiro(double x, double y){
-        this.pontosVitais = 180;
-        this.ataque = 12;
-        this.alcance = 0;
-        this.armadura = 3;
-        this.velocidade = 4.0;
-        this.imagem = "cavaleiro";
-        this.pos.x = x;
-        this.pos.y = y;
-        this.vivo = true;
+        pontosVitais = 180;
+        ataque = 12;
+        alcance = 0;
+        armadura = 3;
+        velocidade = 4.0;
+        imagem = "cavaleiro";
+        pos.x = x;
+        pos.y = y;
+        vivo = true;
         maxPontosVitais = this.pontosVitais;
-
         System.out.println("Unidade " + imagem + "criada, posição (x:" + x + ", y:" + y + ")");
     }
 }

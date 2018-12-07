@@ -2,9 +2,18 @@ package Jogo;
 
 public class ContQueAtaca extends Construção {
 
-    int ataque ;
+    protected int ataque;     //apenas construções que atacam possuem essa variavel
 
-    void atacar(Objeto obj, Raça raçaInimigo) {
+    /**
+     * ataca inimigo, verificando se:
+     * ele é grifo = somente ataque a distancia
+     * ele é construção ou unidade = ataque normal
+     * ele esta morto = sem ataque
+     *
+     * @param obj
+     * @param raçaInimigo
+     */
+    public void atacar(Objeto obj, Raça raçaInimigo) {
         System.out.println("distancia entre objetos: " + Math.sqrt(Math.pow((pos.x - obj.pos.x), 2) + Math.pow((pos.y - obj.pos.y),2)));
         System.out.println("Alcance da unidade: " + this.alcance);
         if (Math.sqrt(Math.pow((pos.x - obj.pos.x), 2) + Math.pow((pos.y - obj.pos.y),2)) <= alcance) {

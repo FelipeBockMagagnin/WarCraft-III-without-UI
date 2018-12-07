@@ -2,6 +2,12 @@ package Jogo;
 
 public class CentroCidade extends ContQueAtaca implements ConstruçaoQCria  {
 
+    /**
+     * metodo herado de uma interface e devidamente implementado para gerar somente componeses
+     *
+     * @param unidade
+     * @param raça
+     */
     public void criar(String unidade, Raça raça){
         if(raça.populaçãoAtual < raça.capacidadePopulação) {
             raça.populaçãoAtual++;
@@ -20,13 +26,13 @@ public class CentroCidade extends ContQueAtaca implements ConstruçaoQCria  {
 
     CentroCidade(double x, double y, Raça raça){
         raça.capacidadePopulação += 10;
-        this.pos.x = x;
-        this.pos.y = y;
-        this.pontosVitais = 600;
-        this.alcance = 8;
-        this.ataque = 10;
-        this.imagem = "Centro da Cidade";
-        this.existente = true;
+        pos.x = x;
+        pos.y = y;
+        pontosVitais = 600;
+        alcance = 8;
+        ataque = 10;
+        imagem = "Centro da Cidade";
+        existente = true;
         System.out.println("Centro da cidade criado na posição, (x:" + x + ", y:" + y + ") pontos vitais: " + pontosVitais);
         raça.construções.add(this);
     }

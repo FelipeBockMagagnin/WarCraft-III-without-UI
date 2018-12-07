@@ -2,7 +2,14 @@ package Jogo;
 
 public class Camponeses extends UnidadeQAtaca{
 
-    void constroi(Posição pos, String tipoContrução, Raça raça){
+    /**
+     * Constroi de acordo com o input do usuario, e adciona a construção ao array de cosntruções da raça
+     *
+     * @param pos
+     * @param tipoContrução
+     * @param raça
+     */
+    public void constroi(Posição pos, String tipoContrução, Raça raça){
         switch(tipoContrução){
             case "casa" :
                 if(raça.madeira >= 30) {
@@ -50,33 +57,47 @@ public class Camponeses extends UnidadeQAtaca{
         }
     }
 
-    void colhe(Raça raça){
+    /**
+     * adiciona comida a raça
+     *
+     * @param raça
+     */
+    public void colhe(Raça raça){
         raça.comida = raça.comida + 1;
         System.out.println("Comida da raça: " + raça.comida);
     }
 
-    void corta(Raça raça){
+    /**
+     * adiciona madeira a raça
+     *
+     * @param raça
+     */
+    public void corta(Raça raça){
         raça.madeira = raça.madeira + 1;
         System.out.println("Madeira da raça: " + raça.madeira);
     }
 
-    void minerar(Raça raça){
+    /**
+     * adiciona ouro a raça
+     *
+     * @param raça
+     */
+    public void minerar(Raça raça){
         raça.ouro = raça.ouro + 1;
         System.out.println("Ouro da raça: " + raça.ouro);
     }
 
     Camponeses(double x, double y){
-        this.pontosVitais = 50;
-        this.ataque = 3;
-        this.alcance = 0;
-        this.armadura = 0;
-        this.velocidade = 2.0;
-        this.imagem = "Campones";
-        this.pos.x = x;
-        this.pos.y = y;
-        this.vivo = true;
-        maxPontosVitais = this.pontosVitais;
-
+        pontosVitais = 50;
+        ataque = 3;
+        alcance = 0;
+        armadura = 0;
+        velocidade = 2.0;
+        imagem = "Campones";
+        pos.x = x;
+        pos.y = y;
+        vivo = true;
+        maxPontosVitais = pontosVitais;
         System.out.println("Unidade " + imagem + "criada, posição (x:" + x + ", y:" + y + ")");
     }
 }

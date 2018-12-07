@@ -3,6 +3,15 @@ package Jogo;
 public class UnidadeQAtaca extends Unidade{
     int ataque;
 
+    /**
+     * ataca inimigo, verificando se:
+     * ele é grifo = somente ataque a distancia
+     * ele é construção ou unidade = ataque normal
+     * ele esta morto = sem ataque
+     *
+     * @param obj
+     * @param raçaInimigo
+     */
     public void atacar(Objeto obj, Raça raçaInimigo) {
         System.out.println("distancia entre objetos: " + Math.sqrt(Math.pow((pos.x - obj.pos.x), 2) + Math.pow((pos.y - obj.pos.y),2)));
         System.out.println("Alcance da unidade: " + this.alcance);

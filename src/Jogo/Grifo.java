@@ -4,20 +4,26 @@ public class Grifo extends UnidadeQAtaca implements AtaqADistancia {
 
 
     Grifo(double x, double y){
-        this.pontosVitais = 300;
-        this.ataque = 20;
-        this.alcance = 7;
-        this.armadura = 7;
-        this.velocidade = 4.0;
-        this.imagem = "grifo";
-        this.pos.x = x;
-        this.pos.y = y;
-        this.vivo = true;
-        maxPontosVitais = this.pontosVitais;
+        pontosVitais = 300;
+        ataque = 20;
+        alcance = 7;
+        armadura = 7;
+        velocidade = 4.0;
+        imagem = "grifo";
+        pos.x = x;
+        pos.y = y;
+        vivo = true;
+        maxPontosVitais = pontosVitais;
         System.out.println("Unidade " + imagem + "criada, posição (x:" + x + ", y:" + y + ")");
     }
 
-    void ataqueArea(Objeto obj, Raça raçaInimigo){
+    /**
+     * ataca o objeto e logo apos verifica se há outros objetos proximos a ele e os ataca também
+     *
+     * @param obj
+     * @param raçaInimigo
+     */
+    public void ataqueArea(Objeto obj, Raça raçaInimigo){
         atacar(obj, raçaInimigo);
         for (Objeto ob: raçaInimigo.unidades){
             if(Math.sqrt(Math.pow((obj.pos.x - ob.pos.x), 2) + Math.pow((obj.pos.y - ob.pos.y),2)) <= alcance){

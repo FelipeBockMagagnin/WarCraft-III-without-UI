@@ -4,16 +4,15 @@ public class Guerreiro extends UnidadeQAtaca {
 
     Guerreiro(double x, double y){
         pontosVitais = 160;
-        this.ataque = 12;
-        this.alcance = 0;
-        this.armadura = 2;
-        this.velocidade = 1.8;
-        this.imagem = "guerreiro";
-        this.pos.x = x;
-        this.pos.y = y;
-        maxPontosVitais = this.pontosVitais;
-        this.vivo = true;
-
+        ataque = 12;
+        alcance = 0;
+        armadura = 2;
+        velocidade = 1.8;
+        imagem = "guerreiro";
+        pos.x = x;
+        pos.y = y;
+        maxPontosVitais = pontosVitais;
+        vivo = true;
         System.out.println("Unidade " + imagem + "criada, posição (x:" + x + ", y:" + y + ")");
     }
 }
