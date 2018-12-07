@@ -14,7 +14,11 @@ abstract public class Raça {
         int cont = 1;
         System.out.println("lista de unidades: ");
         for (Unidade un: unidades) {
-            System.out.println(cont + " - " + un.imagem);
+            if(un.vivo == true) {
+                System.out.println(cont + " - " + un.imagem);
+            } else {
+                System.out.println(cont + " - " + un.imagem + " esta morta!!!!");
+            }
             cont++;
         }
     }
@@ -23,7 +27,11 @@ abstract public class Raça {
         int cont = 1;
         System.out.println("lista de construções: ");
         for (Construção con: construções) {
-            System.out.println(cont + " - " + con.imagem);
+            if(con.existente == true) {
+                System.out.println(cont + " - " + con.imagem);
+            } else {
+                System.out.println(cont + " - " + con.imagem + " esta destruida!!!");
+            }
             cont++;
         }
     }

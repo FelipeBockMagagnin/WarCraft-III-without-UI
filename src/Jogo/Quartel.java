@@ -37,6 +37,7 @@ public class Quartel extends Construção implements ConstruçaoQCria {
         this.pos.x = x;
         this.pos.y = y;
         this.pontosVitais = 350;
+        this.existente = true;
         this.imagem = "Quartel";
         raça.construções.add(this);
         System.out.println("Quartel criado na posição, (x:" + x + ", y:" + y + ") pontos vitais: " + pontosVitais);

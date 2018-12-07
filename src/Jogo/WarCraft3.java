@@ -1,4 +1,5 @@
 package Jogo;
+import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class WarCraft3 {
@@ -32,7 +33,7 @@ public class WarCraft3 {
         Camponeses camp0 = new Camponeses(0,0);
         System.out.println("Pontos vitais antes do ataque: " + camp0.pontosVitais);
         Camponeses camp1 = new Camponeses(0,0);
-        camp1.atacar(camp0);
+        camp1.atacar(camp0, orc);
         System.out.println("Pontos vitais depois do ataque" + camp0.pontosVitais);
 
 
@@ -66,7 +67,7 @@ public class WarCraft3 {
         //centro///
         CentroCidade centro1 = new CentroCidade(0,0, humano);
         System.out.println("Vida campones antes do ataque: " + camp0.pontosVitais);
-        centro1.atacar(camp0);
+        centro1.atacar(camp0, orc);
         System.out.println("Vida campones apos ataque: " + camp0.pontosVitais);
 
 
@@ -74,7 +75,7 @@ public class WarCraft3 {
         //torre///
         Torre torre = new Torre(0,0, humano);
         System.out.println("Vida campones antes do ataque: " + camp0.pontosVitais);
-        torre.atacar(camp0);
+        torre.atacar(camp0, orc);
         System.out.println("Vida campones apos ataque: " + camp0.pontosVitais);
 
 
@@ -214,7 +215,7 @@ public class WarCraft3 {
 
         Guerreiro guerreiro1 = new Guerreiro(0,0);
 
-        guerreiro1.atacar(camp2);
+        guerreiro1.atacar(camp2, orc);
 
         System.out.println("Vida campones depois do ataque: " + camp2.pontosVitais);
 
@@ -226,7 +227,7 @@ public class WarCraft3 {
 
         Guerreiro guerreiro2 = new Guerreiro(0,0);
 
-        guerreiro1.atacar(camp3);
+        guerreiro1.atacar(camp3, orc);
 
         System.out.println("Vida campones depois do ataque: " + camp3.pontosVitais);
 
@@ -239,7 +240,7 @@ public class WarCraft3 {
 
         Arqueiro arqueiro3 = new Arqueiro(3,3);
 
-        arqueiro3.atacar(camp4);
+        arqueiro3.atacar(camp4, orc);
 
         System.out.println("Vida campones depois do ataque: " + camp4.pontosVitais);
 
@@ -251,7 +252,7 @@ public class WarCraft3 {
 
         Guerreiro guerreiro3 = new Guerreiro(0,0);
 
-        guerreiro3.atacar(grifo);
+        guerreiro3.atacar(grifo, orc);
 
         System.out.println("Vida grifo depois do ataque: " + grifo.pontosVitais);
 
@@ -263,7 +264,7 @@ public class WarCraft3 {
 
         Arqueiro arqueiro4 = new Arqueiro(0,0);
 
-        arqueiro4.atacar(grifo1);
+        arqueiro4.atacar(grifo1, orc);
 
         System.out.println("Vida grifo depois do ataque: " + grifo1.pontosVitais);
 
@@ -271,6 +272,7 @@ public class WarCraft3 {
         System.out.println("**************************************************************************************");
         //METODOS EXCLUSIVOS CAMPONES
         Camponeses camp5 = new Camponeses(0,0);
+        humano.unidades.add(camp5);
         camp5.colhe(humano);
         camp5.minerar(humano);
         camp5.corta(humano);
@@ -284,10 +286,50 @@ public class WarCraft3 {
         System.out.println("Vida campones depois da cura(vida cheia): " + camp5.pontosVitais);
 
         //METODO DE CURA EM VIDA BAIXA
+        System.out.println("**************************************************************************************");
         camp5.pontosVitais = 1;
         System.out.println("Vida campones antes da cura: " + camp5.pontosVitais);
         sacerdote.cura(camp5);
         System.out.println("Vida campones depois da cura: " + camp5.pontosVitais);
+
+        //METODO ATAQUE EM AREA
+        System.out.println("**************************************************************************************");
+        System.out.println("Numero unidades vivas antes do ataque: ");
+        humano.listarUnidades();
+        Grifo grifo2 = new Grifo(3,3);
+        grifo2.ataqueArea(camp5, humano);
+        grifo2.ataqueArea(camp5, humano);
+        grifo2.ataqueArea(camp5, humano);
+        grifo2.ataqueArea(camp5, humano);
+        grifo2.ataqueArea(camp5, humano);
+
+        System.out.println("Numero unidades vivas depois do ataque: ");
+        humano.listarUnidades();
+
+        System.out.println("**************************************************************************************");
+
+        //verificar morte construção
+
+        System.out.println("Lista de construções vivas antes do ataque");
+        humano.listarConstruções();
+        Casa casa2 = new Casa(0,0,humano);
+        humano.construções.add(casa2);
+        Camponeses camp6 = new Camponeses(0,0);
+        casa2.pontosVitais = 30;
+
+        System.out.println("Vida construção antes ataque: " + casa2.pontosVitais);
+
+        for(int x = 0; x < 10; x++){
+            camp6.atacar(casa2, humano);
+            System.out.println("Vida construção DURANTE ataque: " + casa2.pontosVitais);
+        }
+        System.out.println("******************************************************");
+        System.out.println("Vida construção DEPOIS ataque: " + casa2.pontosVitais);
+
+        System.out.println("Lista de contruções vivas depois do ataque");
+        humano.listarConstruções();
+
+
 
     }
 }

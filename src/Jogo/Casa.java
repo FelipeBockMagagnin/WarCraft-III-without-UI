@@ -8,6 +8,7 @@ public class Casa extends Construção{
         this.pos.x = x;
         this.pos.y = y;
         this.pontosVitais = 75;
+        this.existente = true;
         this.imagem = "Casa";
         System.out.println("Casa criada na posição, (x:" + x + ", y:" + y + ") pontos vitais: " + pontosVitais);
     }

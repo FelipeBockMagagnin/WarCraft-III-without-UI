@@ -1,6 +1,6 @@
 package Jogo;
 
-public class Construção extends Objeto{
+public abstract class Construção extends Objeto{
         boolean existente;
         int capacidade;
 

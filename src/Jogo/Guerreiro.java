@@ -3,7 +3,7 @@ package Jogo;
 public class Guerreiro extends UnidadeQAtaca {
 
     Guerreiro(double x, double y){
-        this.pontosVitais = 160;
+        pontosVitais = 160;
         this.ataque = 12;
         this.alcance = 0;
         this.armadura = 2;
@@ -12,6 +12,7 @@ public class Guerreiro extends UnidadeQAtaca {
         this.pos.x = x;
         this.pos.y = y;
         maxPontosVitais = this.pontosVitais;
+        this.vivo = true;
 
         System.out.println("Unidade " + imagem + "criada, posição (x:" + x + ", y:" + y + ")");
     }

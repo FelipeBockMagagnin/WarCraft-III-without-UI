@@ -26,6 +26,7 @@ public class CentroCidade extends ContQueAtaca implements ConstruçaoQCria  {
         this.alcance = 8;
         this.ataque = 10;
         this.imagem = "Centro da Cidade";
+        this.existente = true;
         System.out.println("Centro da cidade criado na posição, (x:" + x + ", y:" + y + ") pontos vitais: " + pontosVitais);
         raça.construções.add(this);
     }

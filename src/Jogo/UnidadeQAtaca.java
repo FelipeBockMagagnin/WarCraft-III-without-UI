@@ -3,7 +3,7 @@ package Jogo;
 public class UnidadeQAtaca extends Unidade{
     int ataque;
 
-    public void atacar(Objeto obj) {
+    public void atacar(Objeto obj, Raça raçaInimigo) {
         System.out.println("distancia entre objetos: " + Math.sqrt(Math.pow((pos.x - obj.pos.x), 2) + Math.pow((pos.y - obj.pos.y),2)));
         System.out.println("Alcance da unidade: " + this.alcance);
         if (Math.sqrt(Math.pow((pos.x - obj.pos.x), 2) + Math.pow((pos.y - obj.pos.y),2)) <= alcance) {
@@ -14,17 +14,42 @@ public class UnidadeQAtaca extends Unidade{
                 } else {
                     System.out.println("Não é possivel atacar gripo sendo corpo a corpo");
                 }
-            }else if (obj instanceof Unidade) {
+            } else if(obj instanceof Unidade && ((Unidade) obj).vivo == false) {
+                System.out.println("Esta unidade esta morta, não é possivel atacar!");
+                System.out.println("***********************************************");
+            } else if (obj instanceof Unidade) {
                 obj.pontosVitais = obj.pontosVitais - ((Unidade) obj).calcDamage(ataque);
                 System.out.println("Atacou unidade " + obj.imagem);
+            } else if(obj instanceof Construção && ((Construção) obj).existente == false) {
+                System.out.println("Esta Construção foi destruida, não é possivel atacar!");
+                System.out.println("***********************************************");
             } else if (obj instanceof Construção) {
                 obj.pontosVitais = obj.pontosVitais - this.ataque;
                 System.out.println("Atacou construção " + obj.imagem);
+                System.out.println("***********************************************");
             } else {
                 System.out.println("error");
             }
         } else {
             System.out.println("Muito longe para atacar");
+        }
+
+        //morte unidade
+        if(obj.pontosVitais <= 0 && obj instanceof Unidade && ((Unidade)obj).vivo == true){
+            ((Unidade)obj).vivo = false;
+            //raçaInimigo.unidades.remove(obj);
+            System.out.println("+++++++++++++++++++++++++++++++++++++++++");
+            System.out.println("Unidade " + obj.imagem + " morreu");
+            System.out.println("+++++++++++++++++++++++++++++++++++++++++");
+        }
+
+        //morte construção
+        if(obj.pontosVitais <= 0 && obj instanceof Construção && ((Construção)obj).existente == true){
+            ((Construção)obj).existente = false;
+            //raçaInimigo.construções.remove(obj);
+            System.out.println("+++++++++++++++++++++++++++++++++++++++++");
+            System.out.println("Construção " + obj.imagem + " morreu");
+            System.out.println("+++++++++++++++++++++++++++++++++++++++++");
         }
     }
 }

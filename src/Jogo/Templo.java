@@ -34,6 +34,7 @@ public class Templo extends Construção implements ConstruçaoQCria {
         this.pos.x = x;
         this.pos.y = y;
         this.pontosVitais = 350;
+        this.existente = true;
         this.imagem = "Templo";
         raça.construções.add(this);
         System.out.println("Templo criado na posição, (x:" + x + ", y:" + y + ") pontos vitais: " + pontosVitais);
